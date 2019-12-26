@@ -9,7 +9,7 @@ docker build --rm -t drzvt/s3fs-fuse-cctv:1.0 .
 
 ### Start container 
 
-docker run --restart=always -ti -p 21:21 -p 30000-30100:30000-30100 --privileged --env-file env.list drzvt/s3fs-fuse-cctv:1.0
+docker run --restart=always -ti -p 21:21 -p 30000-30100:30000-30100 --privileged --env-file env.list drzvt/s3fs-fuse:1.0
 
 ### Get shell access into running container 
 
