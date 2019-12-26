@@ -44,3 +44,11 @@ for u in $USERS; do
   fi
   
 done
+cd /home/
+git clone https://github.com/silverescu/s3ListFiles.git s3listfile
+cd s3listfile
+aws s3 cp index.html s3://drazvt-cctv/dzavate
+aws s3 cp index.html s3://drazvt-cctv/dboanca
+aws s3 cp index.html s3://drazvt-cctv/mzavate
+
+
