@@ -1,4 +1,7 @@
-git clone https://github.com/silverescu/open-docker.git s3fs-fuse
+### Create env.list
+
+Use env.list.example to create env.list file
+
 
 ### Build container from image
 
